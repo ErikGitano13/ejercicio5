@@ -7,6 +7,7 @@ import Mazinger
 import Planeador
 import PuñosFuera
 import RayosFotonicos
+import FuegoPecho
 
 # pygame setup
 pygame.init()
@@ -22,6 +23,8 @@ puños= PuñosFuera.PuñosFuera()
 maz.incorpora(puños)
 rayos = RayosFotonicos.RayosFotonicos()
 maz.incorpora(rayos)
+fuego= FuegoPecho.FuegoPecho()
+maz.incorpora(fuego)
 
 
 
