@@ -6,7 +6,7 @@ import Mazinger
 # Añadir aquí las importaciones del armamento.
 import Planeador
 import PuñosFuera
-
+import FuegoPecho
 
 # pygame setup
 pygame.init()
@@ -20,6 +20,8 @@ planeador= Planeador.Planeador()
 maz.incorpora(planeador)
 puños= PuñosFuera.PuñosFuera()
 maz.incorpora(puños)
+fuego= FuegoPecho.FuegoPecho()
+maz.incorpora(fuego)
 
 
 
