@@ -6,7 +6,7 @@ import Mazinger
 # Añadir aquí las importaciones del armamento.
 import Planeador
 import PuñosFuera
-
+import RayosFotonicos
 
 # pygame setup
 pygame.init()
@@ -20,6 +20,8 @@ planeador= Planeador.Planeador()
 maz.incorpora(planeador)
 puños= PuñosFuera.PuñosFuera()
 maz.incorpora(puños)
+rayos = RayosFotonicos.RayosFotonicos()
+maz.incorpora(rayos)
 
 
 
